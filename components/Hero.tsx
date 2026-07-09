@@ -20,7 +20,7 @@ export default function Hero() {
       
        <h1 className="text-7xl font-extrabold leading-tight">
        Find Your
-         <span className="text-blue-500"> Dream career</span>
+         <span className="text-blue-500"> Dream Job</span>
        </h1>
 
        <p className="text-xl text-gray-400 mt-6 max-w-3xl mx-auto">
