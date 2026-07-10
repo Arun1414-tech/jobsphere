@@ -30,7 +30,7 @@ export default async function JobDetails({ params }: JobPageProps) {
   return (
     <main className="max-w-4xl mx-auto py-20 px-6">
       <div className="bg-gray-900 rounded-2xl border border-gray-800 p-10 shadow-xl">
-        <h1 className="text-5xl font-bold">{job.title}</h1>
+        <h1 className="text-5xl font-bold text-white">{job.title}</h1>
 
         <div className="mt-8 space-y-5 text-lg">
           <p className="flex items-center gap-3">
@@ -56,7 +56,7 @@ export default async function JobDetails({ params }: JobPageProps) {
 
         <hr className="my-10 border-gray-700" />
 
-        <h2 className="text-3xl font-bold mb-5">
+        <h2 className="text-3xl font-bold mb-5 text-white">
           Job Description
         </h2>
 
@@ -73,7 +73,7 @@ export default async function JobDetails({ params }: JobPageProps) {
           </Link>
 
           <Link href="/jobs">
-            <button className="border border-gray-600 hover:border-blue-500 transition px-6 py-3 rounded-xl">
+            <button className="border border-gray-600 text-white hover:border-blue-500 transition px-6 py-3 rounded-xl">
               ← Back to Jobs
             </button>
           </Link>

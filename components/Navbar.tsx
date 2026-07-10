@@ -15,15 +15,15 @@ export default function Navbar() {
         </Link>
 
         <div className="flex gap-8 text-lg">
-          <Link href="/" className="hover:text-blue-500 transition">
-            Home
-          </Link>
+          <Link href="/" className="text-white hover:text-blue-500 transition">
+           Home
+           </Link>
 
-          <Link href="/jobs" className="hover:text-blue-500 transition">
+          <Link href="/jobs" className="text-white hover:text-blue-500 transition">
             Jobs
           </Link>
 
-          <Link href="/about" className="hover:text-blue-500 transition">
+          <Link href="/about" className="text-white hover:text-blue-500 transition">
             About
           </Link>
         </div>

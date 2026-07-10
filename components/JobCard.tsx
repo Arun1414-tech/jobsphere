@@ -32,7 +32,7 @@ return(
     ⭐ Featured
   </span>
 </div>
-<h2 className="text-2xl font-bold mb-4">
+  <h2 className="text-2xl font-bold mb-4 text-white">
 {title}
 </h2>
 
@@ -43,7 +43,7 @@ return(
   </div>
 
   <div>
-    <h3 className="font-semibold">{company}</h3>
+    <h3 className="font-semibold text-white"></h3>
     <p className="text-sm text-gray-400">{location}</p>
   </div>
 </div>
@@ -74,7 +74,8 @@ return(
 
 <Link href={`/jobs/${id}`}>
 
-<button className="mt-6 flex items-center gap-2 bg-blue-600 px-5 py-3 rounded-xl hover:bg-blue-700 transition">
+<button 
+  className="mt-6 flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-xl hover:bg-blue-700 transition">
 
 View Details
 

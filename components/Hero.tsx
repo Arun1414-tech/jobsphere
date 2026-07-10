@@ -18,7 +18,8 @@ export default function Hero() {
   return (
     <section className="text-center py-24 px-6">
       
-       <h1 className="text-7xl font-extrabold leading-tight">
+       
+      <h1 className="text-7xl font-extrabold leading-tight text-white">
        Find Your
          <span className="text-blue-500"> Dream Job</span>
        </h1>
@@ -34,7 +35,9 @@ export default function Hero() {
          placeholder="Search by title..."
          value={search}
          onChange={(e)=>setSearch(e.target.value)}
-         className="bg-gray-900 border border-gray-700 rounded-xl p-4 w-80 outline-none focus:border-blue-500"
+         
+          className="bg-gray-900 border border-gray-700 rounded-xl p-4 w-80 outline-none focus:border-blue-500 text-white placeholder:text-gray-500"
+
         />
 
       <input
@@ -42,7 +45,8 @@ export default function Hero() {
         placeholder="Location..."
         value={location}
         onChange={(e)=>setLocation(e.target.value)}
-        className="bg-gray-900 border border-gray-700 rounded-xl p-4 w-64 outline-none focus:border-blue-500"
+        className="bg-gray-900 border border-gray-700 rounded-xl p-4 w-80 outline-none focus:border-blue-500 text-white placeholder:text-gray-500"
+
        />
 
         <button
